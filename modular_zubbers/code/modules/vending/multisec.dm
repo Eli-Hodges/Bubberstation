@@ -42,6 +42,7 @@
 					/obj/item/clothing/head/helmet/sec/futuristic = 6,
 					/obj/item/clothing/suit/armor/vest/collared_vest = 6, //added by Bangle
 					/obj/item/clothing/suit/armor/vest/AdastaPDUniform = 6, //added by Tonadas
+					/obj/item/clothing/mask/gas/adastarespirator = 6, //added by Tonadas
 				),
 			),
 		list(
