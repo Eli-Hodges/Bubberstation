@@ -111,3 +111,12 @@
 /obj/item/clothing/suit/armor/vest/maid/Initialize(mapload)
 	. = ..()
 	allowed += GLOB.security_vest_allowed
+
+//Icon and Sprite by Tonadas
+/obj/item/clothing/suit/armor/vest/AdastaPDUniform
+	name = "Adasta PD Uniform"
+	desc = "A standard issue Adasta PD uniform. It's a bit more robust than the average uniform, offering an inlaid armor vest."
+	icon = 'modular_zubbers/icons/obj/clothing/suits/armor.dmi'
+	worn_icon = 'modular_zubbers/icons/mob/clothing/suits/armor.dmi'
+	icon_state = "adasta_pd_uniform"
+	armor_type = /datum/armor/suit_armor

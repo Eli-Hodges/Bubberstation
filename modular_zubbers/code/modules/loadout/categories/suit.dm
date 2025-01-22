@@ -64,3 +64,7 @@
 /datum/loadout_item/suit/galfed_jacket
 	name = "Galactic Federation Jacket"
 	item_path = /obj/item/clothing/suit/jacket/galfed
+
+/datum/loadout_item/suit/AdastaPDUniform
+	name = "Adasta PD Uniform"
+	item_path = /obj/item/clothing/suit/armor/vest/AdastaPDUniform
