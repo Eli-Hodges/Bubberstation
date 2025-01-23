@@ -118,5 +118,7 @@
 	desc = "A standard issue Adasta PD uniform. It's a bit more robust than the average uniform, offering an inlaid armor vest."
 	icon = 'modular_zubbers/icons/obj/clothing/suits/armor.dmi'
 	worn_icon = 'modular_zubbers/icons/mob/clothing/suits/armor.dmi'
+	worn_icon_digi = 'modular_zubbers/icons/mob/clothing/suits/armor_digi.dmi'
 	icon_state = "adasta_pd_uniform"
 	armor_type = /datum/armor/suit_armor
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
