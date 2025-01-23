@@ -9,3 +9,10 @@
 	flags_inv = HIDEFACIALHAIR|HIDESNOUT
 	w_class = WEIGHT_CLASS_SMALL
 	actions_types = list(/datum/action/item_action/adjust)
+
+/obj/item/clothing/mask/gas/adastarespirator/attack_self(mob/user)
+	adjust_visor(user)
+
+/obj/item/clothing/mask/gas/adastarespirator/click_alt(mob/user)
+	adjust_visor(user)
+	return CLICK_ACTION_SUCCESS
